@@ -1,0 +1,11 @@
+name: table-cpp
+version: 0.1.0
+homepage: https://github.com/morloclib/table-cpp
+synopsis: C++ implementations for the table stdlib module
+description: nanoarrow-backed Table operations using mlc::ArrowTable.
+category: data
+license: MIT
+author: "Zebulun Arendsee"
+maintainer: "z@morloc.io"
+github: https://github.com/morloclib/table-cpp
+bug-reports: https://github.com/morloclib/table-cpp

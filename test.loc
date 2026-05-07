@@ -1,0 +1,4 @@
+module test-table-cpp (test)
+
+import table.test (test)
+import table-cpp

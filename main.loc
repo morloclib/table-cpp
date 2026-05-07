@@ -1,0 +1,28 @@
+module table-cpp (*)
+
+import table
+import vector-cpp
+import root-cpp
+
+type Cpp => (Table (n :: Nat) (r :: Rec)) = "arrow" n r
+
+%inline
+source Cpp from "table.hpp"
+    ( "morloc_asCol"         as asCol
+    , "morloc_nrow"          as nrow
+    , "morloc_ncol"          as ncol
+    , "morloc_names"         as names
+    , "morloc_sliceRows"     as sliceRows
+    , "morloc_filterRows"    as filterRows
+    , "morloc_pickRows"      as pickRows
+    , "morloc_distinctRows"  as distinctRows
+    , "morloc_sortRows"      as sortRows
+    , "morloc_getCol"        as getCol
+    , "morloc_setCol"        as setCol
+    , "morloc_dropCols"      as dropCols
+    , "morloc_selectCols"    as selectCols
+    , "morloc_selectColsDyn" as selectColsDyn
+    , "morloc_renameCol"     as renameCol
+    , "morloc_rbind"         as rbind
+    , "morloc_cbind"         as cbind
+    )

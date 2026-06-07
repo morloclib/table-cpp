@@ -1,5 +1,5 @@
 name: table-cpp
-version: 0.2.0
+version: 0.3.0
 homepage: https://github.com/morloclib/table-cpp
 synopsis: C++ implementations for the table stdlib module
 description: nanoarrow-backed Table operations using mlc::ArrowTable.
